@@ -1,0 +1,10 @@
+<component-set>
+    <components>
+        <component>
+            <role>org.codehaus.plexus.archiver.Archiver</role>
+            <role-hint>cli</role-hint>
+            <implementation>org.lorislab.maven.jboss.cli.archiver.CLIArchiver</implementation>
+            <instantiation-strategy>per-lookup</instantiation-strategy> 
+        </component>
+    </components>
+</component-set>
